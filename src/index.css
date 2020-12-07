@@ -1,0 +1,134 @@
+:root {
+  --Primary-text: #efefef;
+  --Secondary-text: #757575;
+  --Primary-color: #090a0b;
+  --Secondary-color: #1e1e27;
+  --Third-color: #121316;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.7px;
+}
+
+/*General Styles*/
+
+header {
+  background-color: var(--Primary-color);
+}
+
+body {
+  background-color: var(--Secondary-color);
+}
+
+footer {
+  position: relative;
+  min-height: 120px;
+  background-color: var(--Primary-color);
+  padding: 60px 0 30px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--Primary-text);
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--Secondary-text);
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+  color: var(--Secondary-text);
+}
+
+h5 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 20px;
+  color: var(--Primary-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--Primary-text);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+button {
+  font-size: 20px;
+  background-color: var(--Secondary-color);
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  transition: ease-in 0.1s;
+  width: 70%;
+  padding: 5px 5px;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.form-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* List hover effect */
+
+li div {
+  color: var(--Secondary-text);
+  display: inline-block;
+  transition: ease-in 0.1s;
+  cursor: pointer;
+}
+
+li div::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--Primary-text);
+  transition: width 0.3s;
+}
+
+li div:hover::after {
+  width: 100%;
+}
+
+li div:hover {
+  color: var(--Primary-text);
+}
