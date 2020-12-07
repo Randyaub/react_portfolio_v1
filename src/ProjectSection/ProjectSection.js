@@ -32,7 +32,7 @@ const ProjectSection = () => {
             picture="profile-website.png"
             title="Portfolio Website"
             paragraph="The website you are currently using is also built by me. This is my second iteration of my profile. Previously it was created in only HTML/CSS and Javascript and also had a backend that dealt with sending the email. I decided to remove the backend and move the website to react and add more features like modals when clicking a project"
-            github=""
+            github="https://github.com/Randyaub/react_portfolio_v1"
             url="#"
             techUsed={["React", "HTML5", "CSS3"]}
             modalImage={["profile-app-modal-1.png", "profile-app-modal-2.png"]}
