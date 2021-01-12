@@ -2,6 +2,8 @@
 
 This is my portfolio it shows my currently finished projects and tells you alittle about me and has a contact section incase a potential employer would wish to contact me that way.
 
+[The Website Link](https://www.randyaubichon.com)
+
 ## Motivation
 
 After graduating from university with a B.S in Software Sytems Development I realized it was common for developers to have a portfolio when applying for web related jobs. So this is where
