@@ -1,0 +1,9 @@
+.button-links {
+  display: inline-block;
+  width: 100%;
+}
+
+.linkButton {
+  width: 100%;
+  margin-top: 10px;
+}

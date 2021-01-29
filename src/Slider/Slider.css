@@ -1,5 +1,7 @@
 .slider {
-  width: 80%;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 0px 15px;
   height: 300px;
   display: flex;
   align-items: center;
@@ -9,7 +11,10 @@
 }
 
 .slider-text {
-  width: 80%;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 0px 15px;
+
   display: flex;
   align-items: center;
   position: relative;

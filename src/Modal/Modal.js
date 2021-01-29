@@ -1,4 +1,5 @@
 import React from "react";
+import LinkButton from "../common/LinkButton";
 
 import Slider from "../Slider/Slider";
 
@@ -21,29 +22,11 @@ const Modal = (props) => {
           </span>
         </div>
         <div className="modal-buttons">
-          <button>
-            <a
-              href={props.github}
-              className="button-links"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-          </button>
+          <LinkButton buttonText={"GitHub "} url={props.github} />
           {props.url === "#" ? (
             ""
           ) : (
-            <button>
-              <a
-                href={props.url}
-                className="button-links"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Version
-              </a>
-            </button>
+            <LinkButton buttonText={"Live Version "} url={props.url} />
           )}
         </div>
       </div>
