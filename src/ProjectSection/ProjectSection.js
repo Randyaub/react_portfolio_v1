@@ -11,12 +11,30 @@ const ProjectSection = () => {
         <h3 className="project-title">Projects</h3>
         <div className="project-list">
           <ProjectCard
+            picture="humane-society.png"
+            title="Humane Society"
+            paragraph="A landing page for a humane society website. I was inspired to create this landing page after being disappointed viewing my home towns animal services website called the Regina Humane Society. My focus was to improve the UX by simplifing the design."
+            github="https://github.com/Randyaub/react_humane_society"
+            url="https://brave-lewin-7a5e7e.netlify.app/"
+            techUsed={["React", "HTML5", "CSS3"]}
+            modalImage={[
+              "humane-society-1.png",
+              "humane-society-2.png",
+              "humane-society-3.png",
+            ]}
+            imageDescription={[
+              "The website includes a hamburger menu for mobile and tablet users.",
+              "The landing page includes the most recently added animals to the shelter. It is not populated with a database.",
+              "The landing page also includes website activities and announcements.",
+            ]}
+          />
+          <ProjectCard
             picture="weather-app.png"
             title="Weather App"
-            paragraph="This website uses the free OpenWeatherMap API. This allows 60 API calls a minute. If the website appears to be loading forever then it's likely more than 60 calls occured this minute. Please try again later."
+            paragraph="The Weather App website uses the OpenWeatherMap API. This API allows 60 requests a minute. If the website appears to be loading forever then it is likely the API has reached the request limit. Please try again later."
             github="https://github.com/Randyaub/weather-app"
             url="https://naughty-hugle-69c260.netlify.app/"
-            techUsed={["React", "HTML5", "CSS3"]}
+            techUsed={["React", "HTML5", "CSS3", "EmailJS"]}
             modalImage={[
               "weather-app-modal-1.png",
               "weather-app-modal-2.png",
@@ -31,7 +49,7 @@ const ProjectSection = () => {
           <ProjectCard
             picture="profile-website.png"
             title="Portfolio Website"
-            paragraph="The website you are currently using is also built by me. This is my second iteration of my profile. Previously it was created in only HTML/CSS and Javascript and also had a backend that dealt with sending the email. I decided to remove the backend and move the website to react and add more features like modals when clicking a project"
+            paragraph="This portfolio website previously was created using only HTML5/CSS3 and JavaScript. It also had a backend that dealt with sending emails from the contact section below. However, I decided to remove the backend and recreate the website using the framework React."
             github="https://github.com/Randyaub/react_portfolio_v1"
             url="#"
             techUsed={["React", "HTML5", "CSS3"]}

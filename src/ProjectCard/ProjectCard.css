@@ -4,7 +4,7 @@
   justify-content: space-between;
   background-color: var(--Third-color);
   color: var(--Primary-text);
-  padding: 20px;
+  padding: 16px;
   min-width: 400px;
 }
 
@@ -12,7 +12,7 @@
   background-size: cover;
   min-height: 300px;
   background-position: center center;
-  border: 1px solid white;
+  border: 2px solid grey;
   position: relative;
 }
 
@@ -40,14 +40,14 @@
 
 .card-title {
   text-align: center;
-  font-size: 34px;
-  margin-top: 14px;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 .card-paragraph {
   margin-top: 10px;
-  text-align: left;
-  padding: 0px 10px;
+  font-size: 15px;
+  padding: 0px 5px;
 }
 
 .card-hyperlinks {
@@ -57,8 +57,7 @@
 .card-buttons {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .tech-used {
@@ -72,7 +71,7 @@
   background-color: orangered;
   border: 1px solid var(--Primary-text);
   border-radius: 8px;
-  padding: 5px 10px;
+  padding: 5px 12px;
   margin-top: 10px;
 }
 

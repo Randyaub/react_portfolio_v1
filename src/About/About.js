@@ -18,7 +18,7 @@ const About = () => {
               <p>
                 I am a{" "}
                 <span className="highlight">Full-Stack Software Developer</span>{" "}
-                from Regina, Saskatchewan. I graduated school with a{" "}
+                from Regina, Saskatchewan. I graduated university with a{" "}
                 <span className="highlight">
                   B.S. in Software Systems Development
                 </span>
