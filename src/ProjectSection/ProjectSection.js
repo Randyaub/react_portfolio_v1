@@ -23,9 +23,9 @@ const ProjectSection = () => {
               "humane-society-3.png",
             ]}
             imageDescription={[
-              "The website includes a hamburger menu for mobile and tablet users.",
-              "The landing page includes the most recently added animals to the shelter. It is not populated with a database.",
-              "The landing page also includes website activities and announcements.",
+              "The landing page includes a hamburger menu in the top right allowing mobile and tablet users to navigate.",
+              "The website would include a section that lists the most recently accepted animals. It is not populated with a database at this time.",
+              "The landing page would also include the websites community activities and announcements.",
             ]}
           />
           <ProjectCard
@@ -41,9 +41,9 @@ const ProjectSection = () => {
               "weather-app-modal-3.png",
             ]}
             imageDescription={[
-              "The website retrieves the current weather from OpenWeatherAPI. With the help of HTML's geolocation API. The website will prompt the user to share their location. If shared their locations weather will be loaded. Otherwise the defaut location is Calgary.",
-              "The website also uses the location to determine the forcast of the next five days. Again the default is Calgary if the prompt for location is denied",
-              "While the website is waiting for the data from OpenWeathersAPI the app will display animated loading icons. The loading icons are displayed center of where the information will show. The loading icons help improve responsiveness. This ensure users are not left wondering if the app has froze. ",
+              "The API retrieves the weather today and the forcast for the next 5 days from OpenWeatherAPI. With the help of HTML's geolocation API. The website will prompt the user to share their location.",
+              "The default location searched is Calgary if the prompt for location is denied",
+              "During the time the website is receiving data from OpenWeathersAPI. Loading icons are displayed. To display some sort of feedback ",
             ]}
           />
           <ProjectCard
@@ -55,8 +55,8 @@ const ProjectSection = () => {
             techUsed={["React", "HTML5", "CSS3"]}
             modalImage={["profile-app-modal-1.png", "profile-app-modal-2.png"]}
             imageDescription={[
-              "There is no backend on my portfolio site. What was used to send emails is EmailJS. It allows me to create an email template. In the template I place Javascript that will retrieve variables from the form input. Then my email provider sends the email to my personal account.",
-              "In the profile section all tech used is displayed. There is easy access to the code through github and a link to the website. If you hover over the image of projects you can learn more about the projects through a modal",
+              "There is no backend for my portfolio site. I opted to use EmailJS for the contact section. It allowed me to create an email template. That my email provider sends to my personal account.",
+              "Each project list the technology that was used. There are also links to the code base through Github and the live version. Hovering over the image of projects you can learn more about the projects through a modal",
             ]}
           />
         </div>

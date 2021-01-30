@@ -1,0 +1,11 @@
+.c-CardDescription__title {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.c-CardDescription__paragraph {
+  margin: 10px 0px;
+  font-size: 15px;
+  padding: 0px 5px;
+}

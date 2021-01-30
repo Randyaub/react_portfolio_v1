@@ -1,0 +1,53 @@
+.c-CardImage {
+  background-size: cover;
+  min-height: 300px;
+  background-position: center center;
+  border: 2px solid grey;
+  position: relative;
+}
+
+.c-CardImage:hover > .c-CardImage__overlay {
+  opacity: 0.4;
+  visibility: visible;
+}
+
+.c-CardImage:hover > .card-expand-icon {
+  font-size: 38px;
+}
+
+.c-CardImage-btn {
+  position: absolute;
+  border-radius: 0;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c-CardImage:hover > .c-CardImage-btn {
+  visibility: visible;
+  opacity: 1;
+}
+
+.c-CardImage__overlay {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.c-CardImage__icon {
+  position: absolute;
+  font-size: 32px;
+  top: 10px;
+  right: 10px;
+  transition: 0.1s ease-in;
+  color: orangered;
+  z-index: 2;
+}

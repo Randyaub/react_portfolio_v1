@@ -49,12 +49,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header goToContacts={goToContacts} goToProjects={goToProjects} />
-      <SkillSection />
-      <About />
-      <ProjectSection />
-      <Contact />
-      <Footer goToTop={goToTop} />
+      <div className="wrapper">
+        <Header goToContacts={goToContacts} goToProjects={goToProjects} />
+        <SkillSection />
+        <About />
+        <ProjectSection />
+        <Contact />
+        <Footer goToTop={goToTop} />
+      </div>
     </div>
   );
 };

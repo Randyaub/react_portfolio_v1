@@ -1,0 +1,9 @@
+.c-HeaderLeftNavBar li {
+  padding-right: 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.c-HeaderLeftNavBar li:last-child {
+  padding-right: 0px;
+}

@@ -1,48 +1,54 @@
 import React, { useState } from "react";
-import LinkButton from "../common/LinkButton";
-
-import Modal from "../Modal/Modal";
 import "./ProjectCard.css";
-import TechUsed from "./TechUsed";
-import CardImage from "./CardImage";
-import CardDescription from "./CardDescription";
+
+import Modal from "./Modal";
+import Card from "./Card";
 
 const ProjectCard = (props) => {
-  const [modal, setModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const imageClicked = () => {
-    setModal((modal) => !modal);
+    setShowModal((showModal) => !showModal);
   };
 
-  return (
-    <>
-      <div className="card">
-        <div>
-          <CardImage image={props.picture} imageClicked={imageClicked} />
-          <CardDescription title={props.title} paragraph={props.paragraph} />
-        </div>
-        <div className="card-lower">
-          <TechUsed techUsed={props.techUsed} />
-          <LinkButton buttonText={"GitHub "} url={props.github} />
-          {props.url === "#" ? (
-            ""
-          ) : (
-            <LinkButton buttonText={"Live Version "} url={props.url} />
-          )}
-        </div>
-      </div>
+  const {
+    title,
+    paragraph,
+    techUsed,
+    url,
+    github,
+    modalImage,
+    imageDescription,
+    picture,
+  } = props;
 
+  return (
+    <div className="c-ProjectCard flex">
+      <Card
+        cardProperties={{
+          title: title,
+          paragraph: paragraph,
+          techUsed: techUsed,
+          url: url,
+          github: github,
+          modalImage: modalImage,
+          picture: picture,
+          imageClicked: imageClicked,
+        }}
+      />
       {/*Card Modal Opens On Click*/}
       <Modal
-        modal={modal}
-        buttonClicked={imageClicked}
-        title={props.title}
-        modalImage={props.modalImage}
-        imageDescription={props.imageDescription}
-        github={props.github}
-        url={props.url}
+        showModal={showModal}
+        modalContentInformation={{
+          imageClicked: imageClicked,
+          title: title,
+          modalImage: modalImage,
+          imageDescription: imageDescription,
+          github: github,
+          url: url,
+        }}
       />
-    </>
+    </div>
   );
 };
 

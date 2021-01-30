@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 import "./Contact.css";
+import ContactResponse from "./ContactResponse";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -35,53 +37,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" className="c-Contact">
       <div className="container">
-        <h3 className="contact-title">Contact</h3>
-        <div className="contact-message">
-          {loading === true && (
-            <div className="loading">
-              <img src="loading.svg" alt="loading"></img>
-            </div>
-          )}
-          <h4>{message}</h4>
-        </div>
-        <div className="wrap">
-          <form onSubmit={sendEmail} className="contact">
-            <div>
-              <input
-                placeholder="Name"
-                type="text"
-                name="name"
-                id="name"
-                required
-                autoComplete="off"
-              />
-            </div>
-            <div>
-              <input
-                placeholder="Enter Email"
-                type="email"
-                name="email"
-                id="email"
-                required
-                autoComplete="off"
-              />
-            </div>
-            <div>
-              <textarea
-                placeholder="Your Message"
-                name="message"
-                id="message"
-                rows="10"
-                required
-                autoComplete="off"
-              />
-            </div>
-            <div className="submit-button">
-              <button type="submit">Send</button>
-            </div>
-          </form>
+        <h3 className="c-Contact__title">Contact</h3>
+        <ContactResponse message={message} loading={loading} />
+        <div className="c-Contact__form">
+          <ContactForm submitFunction={sendEmail} />
         </div>
       </div>
     </section>

@@ -1,0 +1,22 @@
+.c-ModalTitle__x {
+  color: white;
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.c-ModalTitle__x:hover {
+  color: orangered;
+}
+
+.c-ModalTitle__title {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  background-color: var(--Third-color);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

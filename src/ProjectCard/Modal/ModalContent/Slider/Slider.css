@@ -1,0 +1,9 @@
+.c-Slider {
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 426px) {
+  .c-Slider {
+    max-width: 99.9%;
+  }
+}

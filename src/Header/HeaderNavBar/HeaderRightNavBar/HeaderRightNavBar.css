@@ -1,0 +1,22 @@
+.c-HeaderRightNavBar {
+  display: flex;
+  align-items: center;
+}
+
+.c-HeaderRightNavBar__socialImage {
+  height: 30px;
+  margin-right: 15px;
+  fill: var(--Secondary-text);
+  transition: ease-in 0.1s;
+}
+
+.c-HeaderRightNavBar__socialImage:hover {
+  fill: var(--Primary-text);
+}
+
+.c-HeaderRightNavBar li div {
+  color: var(--Primary-text);
+}
+.c-HeaderRightNavBar__item {
+  font-weight: 600;
+}

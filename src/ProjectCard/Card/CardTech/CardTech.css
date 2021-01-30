@@ -1,0 +1,14 @@
+.c-CardTech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-CardTech__item {
+  margin-right: 5px;
+  background-color: orangered;
+  border: 1px solid var(--Primary-text);
+  border-radius: 8px;
+  padding: 5px 12px;
+  margin-top: 10px;
+}

@@ -1,14 +1,13 @@
 import React from "react";
+import GoToTopButton from "../common/GoToTopButton";
 
 import "./Footer.css";
 
 const Footer = (props) => {
   return (
-    <footer id="bottom">
-      <i onClick={props.goToTop} className="fas fa-angle-double-up go-top"></i>
-      <div>
-        <h5>Randy Aubichon © 2020</h5>
-      </div>
+    <footer className="c-Footer">
+      <GoToTopButton goToTop={props.goToTop} />
+      <h5>Randy Aubichon © 2020</h5>
     </footer>
   );
 };

@@ -1,0 +1,14 @@
+.c-AboutImage {
+  padding-top: 30px;
+}
+
+.c-AboutImage__picture {
+  display: block;
+  width: 200px;
+  border: 2px solid var(--Primary-color);
+  background-color: var(--Third-color);
+  border-radius: 100px;
+  transform: scaleX(-1);
+  margin: 0 auto;
+  padding: 10px;
+}

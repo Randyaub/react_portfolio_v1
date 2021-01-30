@@ -1,0 +1,29 @@
+.c-ModalButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--Third-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.c-ModalButtons-btn {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.c-ModalButtons-btn:last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 426px) {
+  .c-ModalButtons {
+    flex-direction: column;
+  }
+
+  .c-ModalButtons-btn {
+    margin-right: 0px;
+    margin: 5px 0px;
+  }
+}

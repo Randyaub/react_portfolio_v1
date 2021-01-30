@@ -1,0 +1,33 @@
+.c-ContactForm {
+  margin-top: 20px;
+  display: inline-block;
+  min-width: 300px;
+}
+
+.c-ContactForm__input {
+  width: 100%;
+  padding: 13px;
+  outline: none;
+  color: var(--Primary-text);
+  font-size: 15px;
+  background-color: var(--Third-color);
+  border: 2px solid var(--Secondary-color);
+  resize: none;
+}
+
+.l-ContactForm__button {
+  text-align: end;
+}
+
+.c-ContactForm__button {
+  margin-top: 5px;
+  width: 150px;
+  padding: 8px;
+  background-color: var(--Third-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.c-ContactForm__button:hover {
+  background-color: orangered;
+}

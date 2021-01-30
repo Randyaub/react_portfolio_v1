@@ -1,0 +1,24 @@
+.c-AboutParagraph {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.c-AboutParagraph__paragraph {
+  padding: 0px 100px;
+}
+
+.c-AboutParagraph-highlight {
+  color: orangered;
+}
+
+@media only screen and (max-width: 900px) {
+  .c-AboutParagraph__paragraph {
+    padding: 0px 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .c-AboutParagraph__paragraph {
+    padding: 0px 10px;
+  }
+}
