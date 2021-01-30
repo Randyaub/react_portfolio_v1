@@ -34,7 +34,7 @@ const ProjectSection = () => {
             paragraph="The Weather App website uses the OpenWeatherMap API. This API allows 60 requests a minute. If the website appears to be loading forever then it is likely the API has reached the request limit. Please try again later."
             github="https://github.com/Randyaub/weather-app"
             url="https://naughty-hugle-69c260.netlify.app/"
-            techUsed={["React", "HTML5", "CSS3", "EmailJS"]}
+            techUsed={["React", "HTML5", "CSS3"]}
             modalImage={[
               "weather-app-modal-1.png",
               "weather-app-modal-2.png",
@@ -52,7 +52,7 @@ const ProjectSection = () => {
             paragraph="This portfolio website previously was created using only HTML5/CSS3 and JavaScript. It also had a backend that dealt with sending emails from the contact section below. However, I decided to remove the backend and recreate the website using the framework React."
             github="https://github.com/Randyaub/react_portfolio_v1"
             url="#"
-            techUsed={["React", "HTML5", "CSS3"]}
+            techUsed={["React", "HTML5", "CSS3", "EmailJS"]}
             modalImage={["profile-app-modal-1.png", "profile-app-modal-2.png"]}
             imageDescription={[
               "There is no backend for my portfolio site. I opted to use EmailJS for the contact section. It allowed me to create an email template. That my email provider sends to my personal account.",

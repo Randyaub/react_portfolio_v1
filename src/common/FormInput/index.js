@@ -8,7 +8,6 @@ const FormInput = (props) => {
       type={props.type ? props.type : "text"}
       name={props.name}
       required={props.required ? props.required : ""}
-      autoComplete={props.autoComplete ? props.autoComplete : "off"}
     />
   );
 };

@@ -12,15 +12,14 @@ const ContactForm = (props) => {
         name={"name"}
         id={"name"}
         required={true}
-        autoComplete={"nope"}
       />
       <FormInput
         className={"c-ContactForm__input"}
         placeholder={"Enter Email"}
         name={"email"}
+        type={"email"}
         id={"email"}
         required={true}
-        autoComplete={"nope"}
       />
       <textarea
         className={"c-ContactForm__input"}
@@ -28,8 +27,7 @@ const ContactForm = (props) => {
         name="message"
         id="message"
         rows="10"
-        required
-        autoComplete="off"
+        required={true}
       />
       <div className="l-ContactForm__button">
         <button className="c-ContactForm__button" type="submit">
