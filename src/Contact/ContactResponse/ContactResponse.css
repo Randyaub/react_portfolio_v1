@@ -5,3 +5,7 @@
   align-items: center;
   height: 40px;
 }
+
+.c-ContactResponse__message {
+  color: orangered;
+}

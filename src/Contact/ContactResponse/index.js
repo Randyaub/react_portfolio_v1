@@ -7,7 +7,7 @@ const ContactResponse = (props) => {
   return (
     <div className="c-ContactResponse">
       {props.loading === true && <Loading />}
-      <h4>{props.message}</h4>
+      <h4 className="c-ContactResponse__message">{props.message}</h4>
     </div>
   );
 };
