@@ -1,13 +1,12 @@
 # Portfolio Website
 
-This is my portfolio it shows my currently finished projects and tells you alittle about me and has a contact section incase a potential employer would wish to contact me that way.
+This is my portfolio website. It shows my currently finished projects.
 
-[The Website Link](https://www.randyaubichon.com)
+[Link To My Portfolio](https://www.randyaubichon.com)
 
 ## Motivation
 
-After graduating from university with a B.S in Software Sytems Development I realized it was common for developers to have a portfolio when applying for web related jobs. So this is where
-im placing my finished projects for potential employers.
+After graduating from university with a B.S in Software Sytems Development I realized it was common for developers to have a portfolio when applying for web related jobs. So I happily obliged. So I created version one of my portfolio.
 
 ## Code Style
 
@@ -29,14 +28,14 @@ Prettier
 
 **Current Features**
 
--About section that says alittle about me
+-A small about section that says alittle about me.
 
--Project Section that displays my showcased projects
+-A project section that displays my web related projects.
 
--Project Modals that when clicked describe alittle more about the selected project
+-When project images are clicked a modal pop-up will display more images with image descriptions.
 
--A contact section that allows users to email me needing to backend
+-A contact section incase someone wishes to contact me that way.
 
--Smooth scroll navigation to each section and back to the top
+-Smooth scroll navigation to the project, and contact sections and navigation back to the top.
 
--Links to githubs and live sites
+-Links to project code bases through githubs and demonstrations through live sites.
