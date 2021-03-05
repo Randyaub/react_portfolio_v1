@@ -10,12 +10,14 @@ const AboutParagraph = () => {
           <span className="c-AboutParagraph-highlight">
             Full-Stack Software Developer
           </span>{" "}
-          from Regina, Saskatchewan. I graduated from university with a{" "}
+          from Regina, Saskatchewan. I graduated from the University of Regina
+          with a Bachelor's in{" "}
           <span className="c-AboutParagraph-highlight">
-            B.S. in Software Systems Development.
-          </span>{" "}
-          During my education I have developed a passion for all aspects of web
-          development. I am excited to work with like minded people.
+            {" "}
+            Software Systems Development
+          </span>
+          . During my education I have developed a passion for all aspects of
+          web development. I am excited to work with like-minded people.
         </p>
       </div>
     </div>

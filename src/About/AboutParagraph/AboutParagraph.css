@@ -1,10 +1,11 @@
 .c-AboutParagraph {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 50px;
 }
 
 .c-AboutParagraph__paragraph {
   padding: 0px 100px;
+  font-size: 18px;
 }
 
 .c-AboutParagraph-highlight {
