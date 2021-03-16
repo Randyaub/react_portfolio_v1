@@ -11,6 +11,33 @@ const ProjectSection = () => {
         <h3 className="project-title">Projects</h3>
         <div className="project-list">
           <ProjectCard
+            picture="cloth-website.png"
+            title="Clothes Store"
+            paragraph="This is an e-commerce clothing website created using Netlify as the front-end and Heroku as the back-end. The website design took a lot of inspiration from H&M as well as Uniqlo."
+            github="https://github.com/Randyaub/clothes_fullstack_site"
+            url="https://clever-brown-2542ea.netlify.app/men/Shop-Category/all"
+            techUsed={[
+              "React",
+              "HTML5",
+              "CSS3",
+              "Node.js",
+              "Express",
+              "PostgreSQL",
+            ]}
+            modalImage={[
+              "cloth-website-1.png",
+              "cloth-website-2.png",
+              "cloth-website-4.png",
+              "cloth-website-5.png",
+            ]}
+            imageDescription={[
+              "A Guest who submits an order may navigate to the guest orders page. There the ten most recent orders are displayed. This page is used solely to demonstrate orders are stored and displayed from a database.",
+              "A user may create an account for the website. Doing so will allow the user to view orders they have submitted. Otherwise users will have to look into the guest orders page, where only the ten most recent orders or shown.",
+              "The user may view their shopping cart at any time. In the cart page clothing may be removed or their quantities changed to the desired amount.",
+              "Submitting an order is a three step process. The user must fill in both shipping and billing details. Then confirm that their order is correct. He/She will then be directed to a confirmation page.",
+            ]}
+          />
+          <ProjectCard
             picture="humane-society.png"
             title="Humane Society"
             paragraph="A landing page for a humane society website. I was inspired to create this landing page after being disappointed viewing my home towns animal services website called the Regina Humane Society. My focus was to improve the UX by simplifing the design."
